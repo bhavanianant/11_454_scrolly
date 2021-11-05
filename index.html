@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Scrollytelling Assignment - Ananthabhotla</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        body{
+            /*background-color: red;*/
+           /* font-family: 'Ubuntu', sans-serif;*/
+           
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+
+            color:gray;
+            font-weight:300;
+            font-size: x-large;
+        }
+
+        svg {
+            width:100%;
+            height:600px;
+            padding-left:5%;
+            padding-right:50px;     
+        }
+        
+        h1 {
+            /*font-size:60px;*/
+            font-family: 'Open Sans', sans-serif;
+            font-weight:200;
+            line-height:1.3;
+        }
+
+        #permutation{
+            background-color: black;
+            /*height: 3000px;*/
+            /*transform: translate(-50%, -50%);*/
+        }
+        #experience-container{
+            /*position: absolute;
+            left: 60%;*/
+            transform: translate(0%, 30%);
+        }
+        #text-container{
+            /*position: absolute;
+            left: 20%;*/
+            transform: translate(0%, -50%);
+        }
+        #text {
+            color: gray;
+            font-family: 'Merriweather', serif;
+            /*margin-left: 25%;*/
+            font-size: 5vw;
+
+        }
+        #experience {
+            color: blue;
+            font-family: 'Merriweather', serif;
+            font-size: 6vw;
+            text-align: right;
+            /*margin-right: 25%;*/
+
+            /*transition: all .6s ease-in;*/
+        } 
+        #lefthandstory{
+            /*background-color: red;*/
+        }
+        
+        #firstvisualdiv{
+            position: -webkit-sticky;
+            position: sticky;
+
+            top: -1px;
+            border-color: black;
+            /*background-color: red;*/
+            padding: 10px;
+            transition: opacity 0.8s;
+            -webkit-transition: opacity 0.8s;
+
+        }
+
+        #secondvisualdiv {
+            position: -webkit-sticky;
+            position: sticky;
+            top: -1px;
+            padding: 100px;
+            transition: opacity 0.8s;
+            -webkit-transition: opacity 0.8s;
+        }
+
+
+        .img1{
+            max-width: 600px;
+/*            max-height: 100%;*/
+            position: relative;
+            opacity: 0;
+            transition: opacity .5s;
+            -webkit-transition: opacity 1.2s;
+
+       }
+
+       .img2{
+            max-width: 600px;
+            /*max-height: 100%;*/
+            position: relative;
+            opacity: 0;
+            transition: opacity .5s;
+            -webkit-transition: opacity 1.2s;
+
+       }
+       .img3{
+            max-width: 600px;
+            /*max-height: 100%;*/
+            position: relative;
+            opacity: 0;
+            transition: opacity .5s;
+            -webkit-transition: opacity 1.2s;
+
+       }
+
+        .text1opacity, .text2opacity {
+            font-size:30px;
+            fill:blue;
+            opacity:0;
+            transition: opacity 0.8s;
+             -webkit-transition: opacity 0.8s;
+        }
+
+        .text3opacity {
+            font-size:30px;
+            fill:blue;
+            opacity:0;
+            transition: opacity 0.8s;
+            color: blue;
+             -webkit-transition: opacity 0.8s;
+        } 
+
+        .active {
+            opacity:1;
+        }
+
+
+        .deactive {
+            opacity:0;
+        }
+
+    </style>
+
+
+</head>
+<body>
+  <!-- <main role="main" class="container" > -->
+    <div class="row"  >
+        <div class="col-12" id="permutation">
+            <div id='experience-container'>
+                <h1 id="experience">I take care of America's farms after climate change ruined mine. It will get my family back on our feet</h1>
+            </div>
+            <div id="text-container">
+                <h1 id="text">When somebody comes in, we must immediately, with no Judges or Court Cases, bring them back from where they came</h2>
+            </div>
+            <br><br><br><br><br>
+        </div>
+    </div>
+     <div class="row" style="background-color: black;">
+        <div class="col-8" id="lefthandstory">
+            <h1>Dispelling the Myths of Remittances</h1>
+            <p>This project is brought to you by Essi, Shakes, and Bhavani.</p>
+            <p>In 2016, remittances made headlines in the United States. From a term I primarily heard in the Indian American community and among the advertisements between cricket plays in the T20 Series, they became the basis of rhetoric much less cheerful.</p>
+            
+            <br><br>
+            
+            <p id="text1">The President of the United States had just included regulations on remittances to Mexico as a political bargaining chip. In an attempt to follow-up on election promises, the President threatened to tighten restrictions on private cash transfers from the United States to Mexico if the government of Mexico would not pay for a US-Mexico border wall. While this rhetoric was used by right-leaning media and policymakers prolificly without formalizing such a policy, it was an instance of profound disconnect between American policymakers and real human lives their actions can overrun. </p>
+
+            <br><br>
+
+            <p id="text2"> Today, as the United States turns its focus on immigration policy and aid intervention in the Northern Triangle, we still see a disconnect in policymakers' understanding of the impact of their decisions on real households in El Salvador, Guatemala and Honduras. Remittances, rather than a robust-to-change informal economic stimulus in the Northern Triangle, are a fragile financial structure that helps households achieve basic needs after intense physical, mental, and emotional toll of migrating or supporting the migration of a family member. </p>
+
+            <br><br>
+
+            <p id="text3">Remittances are a critical lifeline and must be carefully handled during any reformation of immigration policy.</p>
+            <br><br>
+
+            <!-- <p >We intend to show </p> -->
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+        <div class="col-4">
+            <div id="firstvisualdiv" style="vertical-align: middle;">
+                <br><br><br><br><br><br>
+                <p class="text1opacity"> What do we want to policymakers to better understand?</p>
+                <br><br><br><br><br><br>
+                <p class="text2opacity"> Remittances help households meet basic needs.</p>
+                <br><br><br>
+                <p class="text3opacity"> They have a critical impact on the lives and well-being of families in El Salvador, Guatemala, and Honduras.</p>
+                <br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div style="text-align:center;">
+                <iframe width="900" height="800" frameborder="0" scrolling="no" src="./map_fig.html"></iframe>
+            </div>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <<!-- div id="secondvisualdiv">
+            <iframe width="100%" height="800" frameborder="0" scrolling="no" src="./map_fig.html"></iframe>
+            </div> -->
+            <img class="img1" src="image1.png">
+            <br><br><br><br><br><br><br><br>
+            <img class="img2" src="image2.png">
+            <br><br><br><br><br><br><br><br><br>
+            <img class="img3" src="image3.png">
+            
+        </div>
+        <div class="col-4">
+            <br><br><br><br><br><br><br><br>
+            <p id="text4">We hope to use a dots motif throughout our visual presentation of the data, as shown here... </p>
+    
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p id="text5"> and here...</p>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p id="text6"> An we hope to employ two-sided scrollytelling, as shown in this drawing made in our last advising session by Niko.</p>
+            
+            
+            
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
+           
+
+            
+        </div>
+     </div>
+  <!-- </main>/.container -->
+</body>
+
+<script type="text/javascript">    
+    var controller = new ScrollMagic.Controller();
+    
+        new ScrollMagic.Scene({triggerElement: "#text1"})
+            .setClassToggle(".text1opacity", "active") 
+            .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text2"})
+            .setClassToggle(".text2opacity", "active") 
+            .addTo(controller);
+                        
+        new ScrollMagic.Scene({triggerElement: "#text3"})
+            .setClassToggle(".text3opacity", "active") 
+            .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: "#text4"})
+            .setClassToggle(".img1", "active") 
+            .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: "#text5"})
+            .setClassToggle(".img1", "deactive") 
+            .setClassToggle(".img2", "active") 
+            .addTo(controller);
+        new ScrollMagic.Scene({triggerElement: "#text6"})
+            .setClassToggle(".img2", "deactive") 
+            .setClassToggle(".img3", "active") 
+            .addTo(controller);
+    $(document).ready(function() {
+        var short_delay = 200 //Delay in milliseconds
+        var long_delay = 1000
+
+        // Arrays
+        var realities = ["I came for a job, for an opportunity", "My son sends money for us to breathe easy", "My husband's work in America keeps our lights on here", "My brother sends me money so that my children don't see hunger as I did", "Living miles away is still the best option to take care of my aging parents", "I take care of America's farms after climate change ruined mine. It will get my family back on our feet", ]
+        var myths = ["#DeportThemAll", "#BuildTheWall", "#AmericaFirst", "When somebody comes in, we must immediately, with no Judges or Court Cases, bring them back from where they came", "They're bringing drugs. They're bringing crime.", "This is an invasion of our Country and our Military is waiting for you!"];
+
+        // HTML Elements
+        var experiencesContainer = $('#experience')
+        var textContainer = $('#text'); // jQuery
+
+        // Function to randomly select a string from "myTextArray"
+        function updateText() {
+            i = Math.floor(Math.random() * myths.length);
+            textContainer.html(myths[i]); // jQuery
+            console.log("Text: " + i);
+        };
+        function updateExperience() {
+            i = Math.floor(Math.random() * realities.length);
+            experiencesContainer.html(realities[i]); // jQuery
+            console.log("experience: " + i);
+        };
+
+        // Execute randomizer functions with delay
+        setInterval(function() {
+                // updateExperience();
+                updateText();
+        }, short_delay);
+        setInterval(function() {
+                updateExperience();
+                // updateText();
+        }, long_delay );
+
+    });                        
+</script>
+</body>
+</html>
