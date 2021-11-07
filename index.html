@@ -42,30 +42,30 @@
 
         #permutation{
             background-color: black;
-            /*height: 3000px;*/
+            height: 2000px;
             /*transform: translate(-50%, -50%);*/
         }
         #experience-container{
             /*position: absolute;
             left: 60%;*/
-            transform: translate(0%, 30%);
+            /*transform: translate(0%, 30%);*/
         }
         #text-container{
             /*position: absolute;
             left: 20%;*/
-            transform: translate(0%, -50%);
+            /*transform: translate(0%, -50%);*/
         }
         #text {
             color: gray;
             font-family: 'Merriweather', serif;
             /*margin-left: 25%;*/
-            font-size: 5vw;
+            font-size: 4vw;
 
         }
         #experience {
             color: blue;
             font-family: 'Merriweather', serif;
-            font-size: 6vw;
+            font-size: 5vw;
             text-align: right;
             /*margin-right: 25%;*/
 
@@ -159,21 +159,21 @@
 </head>
 <body>
   <!-- <main role="main" class="container" > -->
-    <div class="row"  >
-        <div class="col-12" id="permutation">
-            <div id='experience-container'>
+    <div class="row" id="permutation" >
+<!--         <div class="col-12" > -->
+            <div class="col-6" id='experience-container'>
                 <h1 id="experience">I take care of America's farms after climate change ruined mine. It will get my family back on our feet</h1>
             </div>
-            <div id="text-container">
+            <div class="col-6" id="text-container">
                 <h1 id="text">When somebody comes in, we must immediately, with no Judges or Court Cases, bring them back from where they came</h2>
             </div>
             <br><br><br><br><br>
-        </div>
+        <!-- </div> -->
     </div>
      <div class="row" style="background-color: black;">
         <div class="col-8" id="lefthandstory">
             <h1>Dispelling the Myths of Remittances</h1>
-            <p>This project is brought to you by Essi, Shakes, and Bhavani.</p>
+            <p>Site by Bhavani.</p>
             <p>In 2016, remittances made headlines in the United States. From a term I primarily heard in the Indian American community and among the advertisements between cricket plays in the T20 Series, they became the basis of rhetoric much less cheerful.</p>
             
             <br><br>
@@ -195,11 +195,11 @@
 
         <div class="col-4">
             <div id="firstvisualdiv" style="vertical-align: middle;">
-                <br><br><br><br><br><br>
-                <p class="text1opacity"> What do we want to policymakers to better understand?</p>
-                <br><br><br><br><br><br>
-                <p class="text2opacity"> Remittances help households meet basic needs.</p>
                 <br><br><br>
+                <p class="text1opacity"> What do we want to policymakers to better understand?</p>
+                <br><br>
+                <p class="text2opacity"> Remittances help households meet basic needs.</p>
+                <br><br>
                 <p class="text3opacity"> They have a critical impact on the lives and well-being of families in El Salvador, Guatemala, and Honduras.</p>
                 <br><br><br><br><br><br>
             </div>
@@ -274,8 +274,8 @@
             .setClassToggle(".img3", "active") 
             .addTo(controller);
     $(document).ready(function() {
-        var short_delay = 200 //Delay in milliseconds
-        var long_delay = 1000
+        var short_delay = 100 //Delay in milliseconds
+        var long_delay = 2000
 
         // Arrays
         var realities = ["I came for a job, for an opportunity", "My son sends money for us to breathe easy", "My husband's work in America keeps our lights on here", "My brother sends me money so that my children don't see hunger as I did", "Living miles away is still the best option to take care of my aging parents", "I take care of America's farms after climate change ruined mine. It will get my family back on our feet", ]
